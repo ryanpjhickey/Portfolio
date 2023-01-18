@@ -152,6 +152,14 @@ class Contact extends React.Component {
                           </li>
                         </ul>
                       </div>
+                      <div className="title-box-2 pt-4 pt-md-0">
+                        <h5 className="title-left">Resume Download</h5>
+                        <div className="more-info pt-4">
+                        <p className="lead">
+                          Please click <a href="%PUBLIC_URL%/RyanHickey_Resume_2023.pdf" download = "%PUBLIC_URL%/RyanHickey_Resume_2023.pdf">here</a> to download my resume.
+                        </p>
+                      </div>
+                      </div>
                     </div>
                   </div>
                 </div>
