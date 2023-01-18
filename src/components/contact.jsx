@@ -156,7 +156,7 @@ class Contact extends React.Component {
                         <h5 className="title-left">Resume Download</h5>
                         <div className="more-info pt-4">
                         <p className="lead">
-                          Please click <a href="%PUBLIC_URL%/RyanHickey_Resume_2023.pdf" download = "%PUBLIC_URL%/RyanHickey_Resume_2023.pdf">here</a> to download my resume.
+                          Please click <a href="./RyanHickey_Resume_2023.pdf" download = "./RyanHickey_Resume_2023.pdf">here</a> to download my resume.
                         </p>
                       </div>
                       </div>
