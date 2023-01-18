@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ryanpjhickey.github.io/",
+  "homepage": "https://ryanpjhickey.github.io/myPortfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "dart-sass": "^4.12.0",

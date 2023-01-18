@@ -31,10 +31,11 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Paws-to-Home</h2>
+                        <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="w-title">Paws-to-Home</a>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 Bulma JavaScript jQuery
@@ -43,13 +44,13 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
                   </div>
-                </a>
               </div>
+              {/* <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="repoLink center">Paws-to-Home Repository</a> */}
             </div>
             <div className="col-md-4">
               <div className="work-box">
@@ -57,10 +58,11 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={stock1} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">CookBook</h2>
+                        <a href="https://github.com/ryanpjhickey/cook-book" className="w-title">CookBook</a>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap JavaScript React.js Apollo GraphQL Node.js Heroku Axios MongoDB
@@ -69,12 +71,11 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
                   </div>
-                </a>
                 <a
                   href={stock2}
                   data-lightbox="gallery-aguadeluz"
@@ -90,10 +91,11 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={stock3} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Coding Quiz</h2>
+                        <a href="https://github.com/ryanpjhickey/Coding-Quiz-Web-App" className="w-title">Coding Quiz</a>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 JavaScript
@@ -103,12 +105,11 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
                   </div>
-                </a>
                 <a
                   href={stock4}
                   data-lightbox="gallery-todo"
