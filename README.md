@@ -19,7 +19,7 @@ This is my react portfolio. It showcases a few of my projects and contains some 
 
 ## Link
 
-https://ryanpjhickey.github.io/Portfolio/
+https://ryanpjhickey.github.io/portfolio/
 
 ---
 
