@@ -137,7 +137,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="w-title">Paws-to-Home</a>
+                        <a href="https://github.com/ryanpjhickey/beauty2door" className="w-title">BeautyToYou</a>
                         <div className="w-more">
                           <span className="w-ctegory">
                           HTML5 CSS3 Bootstrap JavaScript React.js Apollo GraphQL Node.js Heroku Axios MongoDB
