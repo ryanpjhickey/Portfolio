@@ -7,6 +7,7 @@ class Intro extends React.Component {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
       <div id="home" className="intro route bg-image background">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js'></script><script  src="./script.js"></script>
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />

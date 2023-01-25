@@ -16,6 +16,7 @@
     "react-scripts": "^3.3.0",
     "react-typed": "^1.1.2",
     "sass": "^1.57.1",
+    "three": "^0.148.0",
     "typed.js": "^2.0.10"
   },
   "scripts": {
