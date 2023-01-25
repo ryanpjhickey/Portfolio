@@ -8,6 +8,7 @@ import quiz1 from "../img/quiz.png";
 import quiz2 from "../img/quiz_demo1.png";
 import quiz3 from "../img/quiz_demo2.png"
 import skincare from "../img/store.png"
+import pgen from "../img/password.png"
 
 class Portfolio extends React.Component {
   render() {
@@ -30,7 +31,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={paws} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={paws} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-thumbnail" />
                   </div>
                   </a>
                   <div className="work-content">
@@ -39,7 +40,7 @@ class Portfolio extends React.Component {
                         <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="w-title">Paws-to-Home</a>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bulma JavaScript jQuery
+                            HTML CSS Bulma JavaScript jQuery
                           </span>
                         </div>
                       </div>
@@ -55,19 +56,19 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={cook1} data-lightbox="gallery-aguadeluz">
+                <a href={pgen} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={cook1} alt="" className="img-fluid" />
+                    <img src={pgen} alt="" className="img-thumbnail" />
                   </div>
                   </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <a href="https://github.com/ryanpjhickey/cook-book" className="w-title">CookBook</a>
+                        <a href="https://github.com/ryanpjhickey/PasswordGenerator" className="w-title">Password Generator</a>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap JavaScript React.js Apollo GraphQL Node.js Heroku Axios MongoDB
-                          </span>{" "}
+                          HTML CSS JavaScript
+                          </span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -77,20 +78,14 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                <a
-                  href={cook2}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
               </div>
+              {/* <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="repoLink center">Paws-to-Home Repository</a> */}
             </div>
             <div className="col-md-4">
               <div className="work-box">
                 <a href={quiz1} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={quiz1} alt="" className="img-fluid" />
+                    <img src={quiz1} alt="" className="img-thumbnail" />
                   </div>
                   </a>
                   <div className="work-content">
@@ -99,7 +94,7 @@ class Portfolio extends React.Component {
                         <a href="https://github.com/ryanpjhickey/Coding-Quiz-Web-App" className="w-title">Coding Quiz</a>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 JavaScript
+                            HTML CSS JavaScript
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
@@ -129,9 +124,42 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
+                <a href={cook1} data-lightbox="gallery-aguadeluz">
+                  <div className="work-img">
+                    <img src={cook1} alt="" className="img-thumbnail" />
+                  </div>
+                  </a>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <a href="https://github.com/ryanpjhickey/cook-book" className="w-title">CookBook</a>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            HTML CSS Bootstrap JavaScript React.js Apollo GraphQL Node.js Heroku Axios MongoDB
+                          </span>{" "}
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          {/* <span className="ion-ios-plus-outline"></span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <a
+                  href={cook2}
+                  data-lightbox="gallery-aguadeluz"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
                 <a href={skincare} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={skincare} alt="" className="img-fluid" />
+                    <img src={skincare} alt="" className="img-thumbnail" />
                   </div>
                   </a>
                   <div className="work-content">
@@ -140,7 +168,7 @@ class Portfolio extends React.Component {
                         <a href="https://github.com/ryanpjhickey/beauty2door" className="w-title">BeautyToYou</a>
                         <div className="w-more">
                           <span className="w-ctegory">
-                          HTML5 CSS3 Bootstrap JavaScript React.js Apollo GraphQL Node.js Heroku Axios MongoDB
+                          HTML CSS Bootstrap JavaScript React.js Apollo GraphQL Node.js Heroku Axios MongoDB
                           </span>
                         </div>
                       </div>
@@ -158,7 +186,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={paws} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={paws} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-thumbnail" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -219,7 +247,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={paws} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={paws} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-thumbnail" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -278,7 +306,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={paws} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={paws} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-thumbnail" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -286,7 +314,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Lorem Ipsum</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
+                            HTML CSS Bootstrap MERN
                           </span>
                         </div>
                       </div>

@@ -723,6 +723,8 @@ PORTFOLIO
 
 .work-img img {
   transition: all 1s;
+  width: 350px;
+  height: 350px;
 }
 
 .work-content {
