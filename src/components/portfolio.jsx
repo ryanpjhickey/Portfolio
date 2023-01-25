@@ -1,12 +1,13 @@
 import React from "react";
 
-//import stock
-import stock from "../img/paws.jpg";
-import stock1 from "../img/cookbook.png";
-import stock2 from "../img/cookbook_demo.png";
-import stock3 from "../img/quiz.png";
-import stock4 from "../img/quiz_demo1.png";
-import stock5 from "../img/quiz_demo2.png"
+//import photos
+import paws from "../img/paws.jpg";
+import cook1 from "../img/cookbook.png";
+import cook2 from "../img/cookbook_demo.png";
+import quiz1 from "../img/quiz.png";
+import quiz2 from "../img/quiz_demo1.png";
+import quiz3 from "../img/quiz_demo2.png"
+import skincare from "../img/store.png"
 
 class Portfolio extends React.Component {
   render() {
@@ -27,9 +28,9 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={paws} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-fluid" />
                   </div>
                   </a>
                   <div className="work-content">
@@ -54,9 +55,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock1} data-lightbox="gallery-aguadeluz">
+                <a href={cook1} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock1} alt="" className="img-fluid" />
+                    <img src={cook1} alt="" className="img-fluid" />
                   </div>
                   </a>
                   <div className="work-content">
@@ -77,7 +78,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 <a
-                  href={stock2}
+                  href={cook2}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
@@ -87,9 +88,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock3} data-lightbox="gallery-todo">
+                <a href={quiz1} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock3} alt="" className="img-fluid" />
+                    <img src={quiz1} alt="" className="img-fluid" />
                   </div>
                   </a>
                   <div className="work-content">
@@ -111,14 +112,14 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 <a
-                  href={stock4}
+                  href={quiz2}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={quiz3}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
@@ -126,11 +127,38 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href={skincare} data-lightbox="gallery-vmarine">
+                  <div className="work-img">
+                    <img src={skincare} alt="" className="img-fluid" />
+                  </div>
+                  </a>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="w-title">Paws-to-Home</a>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                          HTML5 CSS3 Bootstrap JavaScript React.js Apollo GraphQL Node.js Heroku Axios MongoDB
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          {/* <span className="ion-ios-plus-outline"></span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              {/* <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="repoLink center">Paws-to-Home Repository</a> */}
+            </div>
             {/* <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href={paws} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -151,35 +179,35 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={cook1}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={cook2}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={quiz1}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={quiz2}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={quiz3}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
@@ -189,9 +217,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={paws} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -210,35 +238,35 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={cook1}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={cook2}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={quiz1}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={quiz2}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={quiz3}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
@@ -248,9 +276,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href={paws} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={paws} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -271,35 +299,35 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={cook1}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={cook2}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={quiz1}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={quiz2}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={quiz3}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
