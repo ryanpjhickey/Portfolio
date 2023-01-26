@@ -9,6 +9,7 @@ import quiz2 from "../img/quiz_demo1.png";
 import quiz3 from "../img/quiz_demo2.png"
 import skincare from "../img/store.png"
 import pgen from "../img/password.png"
+import aeroplane from "../img/aeroplane.png"
 
 class Portfolio extends React.Component {
   render() {
@@ -46,13 +47,11 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
                   </div>
               </div>
-              {/* <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="repoLink center">Paws-to-Home Repository</a> */}
             </div>
             <div className="col-md-4">
               <div className="work-box">
@@ -73,13 +72,11 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
                   </div>
               </div>
-              {/* <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="repoLink center">Paws-to-Home Repository</a> */}
             </div>
             <div className="col-md-4">
               <div className="work-box">
@@ -101,7 +98,6 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
@@ -141,7 +137,6 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
@@ -174,197 +169,37 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          {/* <span className="ion-ios-plus-outline"></span> */}
                         </div>
                       </div>
                     </div>
                   </div>
               </div>
-              {/* <a href="https://github.com/ryanpjhickey/Paws-to-Home" className="repoLink center">Paws-to-Home Repository</a> */}
             </div>
-            {/* <div className="col-md-4">
-              <div className="work-box">
-                <a href={paws} data-lightbox="gallery-medlingos">
+            <div className="work-box">
+                <a href={aeroplane} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={paws} alt="" className="img-thumbnail" />
+                    <img src={aeroplane} alt="" className="img-thumbnail" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <a href="https://github.com/ryanpjhickey/airplane-threejs" className="w-title">Airplane Three.js</a>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                          HTML CSS JavaScript Three.js
                           </span>
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
                         </div>
                       </div>
                     </div>
                   </div>
-                </a>
-                <a
-                  href={cook1}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={cook2}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz1}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz2}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz3}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={paws} data-lightbox="gallery-smth">
-                  <div className="work-img">
-                    <img src={paws} alt="" className="img-thumbnail" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href={cook1}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={cook2}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz1}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz2}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz3}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={paws} data-lightbox="gallery-mf">
-                  <div className="work-img">
-                    <img src={paws} alt="" className="img-thumbnail" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML CSS Bootstrap MERN
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href={cook1}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={cook2}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz1}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz2}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={quiz3}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-              </div> */}
-            {/* </div> */}
           </div>
-        </div>
       </section>
     );
   }

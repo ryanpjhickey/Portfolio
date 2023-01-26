@@ -1,9 +1,12 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
 import Resume from "./RyanHickey_Resume_2023.pdf"
+// import pdfHandler from "../libs/pdfHandler";
 
 class Contact extends React.Component {
+
   render() {
+
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
@@ -157,7 +160,7 @@ class Contact extends React.Component {
                         <h5 className="title-left">Resume Download</h5>
                         <div className="more-info pt-4">
                         <p className="lead">
-                          Please click <a href={Resume} download>here</a> to download my resume.
+                          Please click <a href={Resume} download="RyanHickey_Resume" >here</a> to download my resume.
                         </p>
                       </div>
                       </div>
@@ -181,6 +184,6 @@ class Contact extends React.Component {
       </section>
     );
   }
-}
+};
 
 export default Contact;
