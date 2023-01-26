@@ -5,51 +5,21 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", barPercentage: "90%", value: "90" },
-        { id: "CSS3_skill", content: "CSS3", barPercentage: "85%", value: "85" },
         {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          barPercentage: "90%",
-          value: "90"
+          id: "first-p-about",
+          content:
+            "I am proficient in HTML, CSS, JavaScript, jQuery, Git, GitHub, Bootstrap, Bulma, Node.js, React.js,Jest.js, SQL, MySQL, NoSQL, MongoDB, Express.js, Handlebars.js, GraphQL, Apollo, Java, VBA, Replit, and C#. I am always looking to improve my programming skills and learn new technologies."
         },
         {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          barPercentage: "90%",
-          value: "90"
+          id: "second-p-about",
+          content:
+            " I have experience in developing and maintaining websites, translating visual prototypes into launch-ready code, troubleshooting for various different platforms, as well as experience in website build-outs. I currently work in a remote hybrid environment with large and diverse groups across large teams in the San Francisco Bay Area."
         },
         {
-          id: "MongoDB_skill",
-          content: "MongoDB",
-          barPercentage: "85%",
-          value: "85"
-        },
-        {
-          id: "MySQL_skill",
-          content: "MySQL",
-          barPercentage: "80%",
-          value: "80"
-        },
-        {
-          id: "Java_skill",
-          content: "Java",
-          barPercentage: "75%",
-          value: "75"
-        },
-        { id: "CSharp_skill", content: "C#", barPercentage: "70%", value: "70" },
-        // {
-        //   id: "VanillaJS_skill",
-        //   content: "VanillaJS",
-        //   barPercentage: "85%",
-        //   value: "85"
-        // },
-        // {
-        //   id: "Wordpress_skill",
-        //   content: "Wordpress",
-        //   barPercentage: "80%",
-        //   value: "80"
-        // }
+          id: "third-p-about",
+          content:
+            "I am flexible and adapt to change quickly. I am highly motivated to learn new things and I regularly solve problems utitlizing critical thinking skills. I'm always looking for new ways to do things in pursuit of efficiency and best practices. I value being a part of a team that builds relationships and trust to achieve our goals."
+        }
       ],
       about_me: [
         {
@@ -65,7 +35,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            "Eventually, I'd hope to help create applications, services, and products that can positively impact the world in some way. I believe programming is a beautiful industry that can largely effect the world more than any other industry. Ultimately, I want to be able to use that power that programming has to make our world better in one way or another."
+            "My long term goals include developing technology that can positively impact the world. I believe software development is an amazing career path that can largely effect the world in a positive way. Ultimately, I want to utilize power that programming has to make our world better."
         }
       ]
     };
@@ -81,6 +51,18 @@ class About extends React.Component {
                 <div className="row">
                   <div className="col-md-6">
                     <div className="row">
+                    <div className="about-me pt-4 pt-md-0">
+                      <div className="title-box-2">
+                        <h5 className="title-left">Technical Skills</h5>
+                      </div>
+                      {this.state.skills.map(content => {
+                        return (
+                          <p className="lead" key={content.id}>
+                            {content.content}
+                          </p>
+                        );
+                      })}
+                    </div>
                       <div
                         className="col-sm-6 col-md-5"
                         style={{ margin: "0 auto" }}
@@ -95,29 +77,6 @@ class About extends React.Component {
                           />
                         </div>
                       </div>
-                    </div>
-                    <div className="skill-mf">
-                      <p className="title-s">Technical Skills</p>
-                      {this.state.skills.map(skill => {
-                        return (
-                          <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
-                            <span className="pull-right">
-                              {skill.barPercentage}
-                            </span>
-                            <div className="progress">
-                              <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: skill.barPercentage }}
-                                aria-valuenow={skill.value}
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                              ></div>
-                            </div>
-                          </React.Fragment>
-                        );
-                      })}
                     </div>
                   </div>
                   <div className="col-md-6">
