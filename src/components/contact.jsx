@@ -160,7 +160,7 @@ class Contact extends React.Component {
                         <h5 className="title-left">Resume Download</h5>
                         <div className="more-info pt-4">
                         <p className="lead">
-                          Please click <a href="/Resume.pdf" download="Resume.pdf" >here</a> to download my resume.
+                          Please click <a href="Resume.pdf" download="RyanHickey_Resume.pdf" >here</a> to download my resume.
                         </p>
                       </div>
                       </div>
