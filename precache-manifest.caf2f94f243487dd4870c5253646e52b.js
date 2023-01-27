@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9659cbaa29388c53406836dc01f74467",
+    "revision": "e96eb31519f7ba3c86b1bbb29d701098",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7b6e474b94b3645d3734",
+    "revision": "6b2be3f123ccd45292ec",
     "url": "/portfolio/static/css/2.53346d46.chunk.css"
   },
   {
-    "revision": "7474fe08edc5f285b79a",
+    "revision": "3f53b2c032364186886d",
     "url": "/portfolio/static/css/main.65997715.chunk.css"
   },
   {
-    "revision": "7b6e474b94b3645d3734",
-    "url": "/portfolio/static/js/2.e86cf29a.chunk.js"
+    "revision": "6b2be3f123ccd45292ec",
+    "url": "/portfolio/static/js/2.b91dea5a.chunk.js"
   },
   {
     "revision": "f2e097a5fa04a5d1b01656a6cd1a1a1a",
-    "url": "/portfolio/static/js/2.e86cf29a.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.b91dea5a.chunk.js.LICENSE"
   },
   {
-    "revision": "7474fe08edc5f285b79a",
-    "url": "/portfolio/static/js/main.7e9e4480.chunk.js"
+    "revision": "3f53b2c032364186886d",
+    "url": "/portfolio/static/js/main.b6bbb7aa.chunk.js"
   },
   {
     "revision": "6fef3673099b4dcdb973",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ca9b0881cda8834319b521d3cf62d306",
     "url": "/portfolio/static/media/Me.ca9b0881.jpg"
-  },
-  {
-    "revision": "ed68d462ea03b158fae3da7bcfa66fed",
-    "url": "/portfolio/static/media/RyanHickey_Resume_2023.ed68d462.pdf"
   },
   {
     "revision": "e89a0d033ccbaba4b87e291383e6a0bb",
