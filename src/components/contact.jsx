@@ -103,15 +103,13 @@ class Contact extends React.Component {
                     </div>
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Get in Touch</h5>
+                        <h5 className="title-left">Contact Information</h5>
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
+                        Below you will find links to my GitHub and LinkedIn. For any questions or concerns regarding employment opportunities, please feel free to contact me by using the form provided or via e-mail at ryanpjhickey@gmail.com.
                           <br />
-                          Simply fill the from and send me an email.
+                          I look forward to hearing from you!
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
