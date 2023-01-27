@@ -1,6 +1,6 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
-import Resume from "./RyanHickey_Resume_2023.pdf"
+// import Resume from "./RyanHickey_Resume_2023.pdf"
 // import pdfHandler from "../libs/pdfHandler";
 
 class Contact extends React.Component {
@@ -160,7 +160,7 @@ class Contact extends React.Component {
                         <h5 className="title-left">Resume Download</h5>
                         <div className="more-info pt-4">
                         <p className="lead">
-                          Please click <a href={Resume} download="RyanHickey_Resume" >here</a> to download my resume.
+                          Please click <a href="/Resume.pdf" download="Resume.pdf" >here</a> to download my resume.
                         </p>
                       </div>
                       </div>
