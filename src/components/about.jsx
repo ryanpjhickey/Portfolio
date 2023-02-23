@@ -8,7 +8,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I am proficient in HTML, CSS, JavaScript, jQuery, Git, GitHub, Bootstrap, Bulma, Node.js, React.js,Jest.js, SQL, MySQL, NoSQL, MongoDB, Express.js, Handlebars.js, GraphQL, Apollo, Java, VBA, Replit, and C#. I am always looking to improve my programming skills and learn new technologies."
+            "I am proficient in HTML, CSS, JavaScript, jQuery, Git, GitHub, Bootstrap, Bulma, Node.js, React.js, Jest.js, SQL, MySQL, NoSQL, MongoDB, Express.js, Handlebars.js, GraphQL, Apollo, Java, VBA, Replit, and C#. I am always looking to improve my programming skills and learn new technologies."
         },
         {
           id: "second-p-about",
